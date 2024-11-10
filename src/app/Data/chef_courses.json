@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Culinary Foundations",
+      "slug": "culinary-foundations",
+      "description": "Master the basics of cooking techniques and foundational skills every chef needs.",
+      "price": 99.99,
+      "instructor": "Chef John Doe",
+      "isFeatured": true,
+      "image": "/courses/culinary-foundations.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Baking and Pastry Arts",
+      "slug": "baking-and-pastry-arts",
+      "description": "Learn the art of baking and pastry creation with guidance from professional pastry chefs.",
+      "price": 109.99,
+      "instructor": "Chef Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/baking-pastry.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Advanced Knife Skills",
+      "slug": "advanced-knife-skills",
+      "description": "Take your knife skills to the next level with advanced techniques for precision and speed.",
+      "price": 119.99,
+      "instructor": "Chef Emily Johnson",
+      "isFeatured": true,
+      "image": "/courses/knife-skills.jpg"
+    },
+    {
+      "id": 4,
+      "title": "World Cuisines",
+      "slug": "world-cuisines",
+      "description": "Explore flavors and techniques from cuisines around the world in this comprehensive course.",
+      "price": 129.99,
+      "instructor": "Chef Mike Brown",
+      "isFeatured": false,
+      "image": "/courses/world-cuisines.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Gourmet Sauces and Stocks",
+      "slug": "gourmet-sauces-stocks",
+      "description": "Learn to make rich and flavorful sauces and stocks to elevate your dishes.",
+      "price": 139.99,
+      "instructor": "Chef Chris Davis",
+      "isFeatured": false,
+      "image": "/courses/sauces-stocks.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Food Plating and Presentation",
+      "slug": "food-plating-presentation",
+      "description": "Discover techniques for beautiful food presentation to make your dishes look as good as they taste.",
+      "price": 149.99,
+      "instructor": "Chef Alex Wilson",
+      "isFeatured": true,
+      "image": "/courses/plating.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Farm-to-Table Cooking",
+      "slug": "farm-to-table-cooking",
+      "description": "Learn to cook using fresh, seasonal ingredients with a focus on sustainability.",
+      "price": 159.99,
+      "instructor": "Chef Samantha Miller",
+      "isFeatured": false,
+      "image": "/courses/farm-to-table.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Molecular Gastronomy",
+      "slug": "molecular-gastronomy",
+      "description": "Experiment with molecular techniques to transform ingredients in exciting ways.",
+      "price": 169.99,
+      "instructor": "Chef Luke Harris",
+      "isFeatured": true,
+      "image": "/courses/molecular-gastronomy.jpg"
+    },
+    {
+      "id": 9,
+      "title": "History of Culinary Arts",
+      "slug": "history-culinary-arts",
+      "description": "Trace the evolution of cooking and culinary techniques from ancient times to today.",
+      "price": 179.99,
+      "instructor": "Chef Grace Lee",
+      "isFeatured": false,
+      "image": "/courses/culinary-history.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Mastering BBQ and Grill Techniques",
+      "slug": "bbq-grill-techniques",
+      "description": "Learn the secrets to perfect grilling and barbecue for mouth-watering results.",
+      "price": 189.99,
+      "instructor": "Chef Ethan Moore",
+      "isFeatured": true,
+      "image": "/courses/bbq-grill.jpg"
+    }
+  ]
+}
