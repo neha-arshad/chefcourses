@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import courseData from "../data/chef_courses.json";
+import courseData from "../Data/chef_courses.json";
 import { BackgroundGradient } from "./Ui/background-gradient";
 
 interface Courses {
