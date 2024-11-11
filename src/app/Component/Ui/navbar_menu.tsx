@@ -4,6 +4,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 
+// Define types for props in MenuItem
+interface MenuItemProps {
+  setActive: (item: string) => void;
+  active: string | null;
+  item: string;
+  children?: React.ReactNode;
+}
+
 const transition = {
   type: "spring",
   mass: 0.5,
@@ -18,12 +26,7 @@ export const MenuItem = ({
   active,
   item,
   children,
-}: {
-  setActive: (item: string) => void;
-  active: string | null;
-  item: string;
-  children?: React.ReactNode;
-}) => {
+}: MenuItemProps) => {
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
@@ -60,13 +63,13 @@ export const MenuItem = ({
   );
 };
 
-export const Menu = ({
-  setActive,
-  children,
-}: {
+// Define types for props in Menu
+interface MenuProps {
   setActive: (item: string | null) => void;
   children: React.ReactNode;
-}) => {
+}
+
+export const Menu = ({ setActive, children }: MenuProps) => {
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
@@ -77,17 +80,20 @@ export const Menu = ({
   );
 };
 
+// Define types for props in ProductItem
+interface ProductItemProps {
+  title: string;
+  description: string;
+  href: string;
+  src: string;
+}
+
 export const ProductItem = ({
   title,
   description,
   href,
   src,
-}: {
-  title: string;
-  description: string;
-  href: string;
-  src: string;
-}) => {
+}: ProductItemProps) => {
   return (
     <Link href={href} className="flex space-x-2">
       <Image
@@ -109,9 +115,14 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+// Define types for props in HoveredLink
+interface HoveredLinkProps extends React.LinkHTMLAttributes<HTMLAnchorElement> {
+  children: React.ReactNode;
+}
+
+export const HoveredLink = ({ children, ...rest }: HoveredLinkProps) => {
   return (
-    <Link
+    <Link href={""}
       {...rest}
       className="text-neutral-700 dark:text-neutral-200 hover:text-black "
     >
